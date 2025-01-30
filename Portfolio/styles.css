@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    background-color: #f8fafc;
+    color: #0f172a;
+    line-height: 1.6;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #0f172a;
+}
+header{
+    background-color: red;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+}
