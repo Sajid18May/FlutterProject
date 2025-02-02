@@ -51,7 +51,10 @@ class _MyHomePageState extends State<MyHomePage> {
             leading: CircleAvatar(
               backgroundImage:AssetImage('assets/images/The Inmate.jpg') ,
             ),
-            title: Card(child: Text("Person",style: Theme.of(context).textTheme.headlineMedium!.copyWith(color: Colors.indigo),)),
+            title: Card(child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("Person",style: Theme.of(context).textTheme.headlineMedium!.copyWith(color: Colors.indigo),),
+            )),
             subtitle: Text("Blah Blah Blah!!!",style: Theme.of(context).textTheme.labelSmall,),
             trailing: Text("Time",style: tStyle1(),)
           ,
