@@ -1,0 +1,2 @@
+D:/app/bmiapp/android/app/.cxx/Debug/155o2c40/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/app/bmiapp/android/app/.cxx/Debug/155o2c40/armeabi-v7a/CMakeFiles/rebuild_cache.dir
